@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme{
+        --font-righteous: "Righteous", sans-serif;
+        --font-rowdies: "Rowdies", sans-serif;
+        --font-saira: "Saira", sans-serif;
+        --color-1-white: #ffffff;
+        --color-2-black: #323232;
+        --color-3-blue: #0e38cd;
+        --color-4-darkblue: #324361;
+        --color-5-place-blue: #4f547b;
+        --color-6-login-grey: #4a4a4a;
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHVoPKd1DOaBc6ccdUtv65X03pgbKf6fHEg&s"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Rowdies&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Askme identity Landing Page</title>
+  </head>
+  <body>
+    <!-- header/nav -->
+    <header>
+      <nav class="container flex items-center py-1">
+        <div class="py-1 ">
+          <img src="Assets/Askmeidentity 2logo.png" alt="logo" />
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 lg:mt-1 sm:mt-20 justify-end items-center gap-10 text-1-black font-righteous text-sm"
+        >
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Course</li>
+          <li class="cursor-pointer">Contact</li>
+          <img class="size-20 " src="Assets/Group 1nav.svg" alt="" />
+          <button
+            type="button"
+            class="underline text-6-login-grey font-saira text-sm"
+          >
+            Login
+          </button>
+          <button
+            type="button"
+            class="bg-gradient-to-r from-[#083f9b] to-[#7f56d9] font-saira text-white rounded-md px-7 py-3"
+          >
+            Signup
+          </button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end items-end">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- hero section -->
+  </body>
+</html>
